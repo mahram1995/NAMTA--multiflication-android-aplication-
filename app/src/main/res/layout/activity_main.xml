@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#62AAAA"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="15dp"
+        android:textSize="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Musfika Tabassum Mukta"
+        tools:layout_editor_absoluteX="137dp"
+        tools:layout_editor_absoluteY="132dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/number"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:background="@color/white"
+            android:inputType="number"
+            android:hint="Enter Number"
+            android:layout_marginRight="10dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OK"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/textView"
+            android:textSize="25sp"
+            android:textColor="#1B6481"
+            android:layout_width="match_parent"
+            android:paddingTop="5dp"
+            android:background="#D1E3DC"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+
+</LinearLayout>
